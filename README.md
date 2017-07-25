@@ -279,7 +279,7 @@ protected void onCreate(Bundle savedInstanceState) {
     interstitial = new InterstitialAd(this);
 
     final Activity self = this;
-    InterstitialAdListener listener = new InterstitialAdListener() {
+     listener = new InterstitialAdListener() {
         @Override
         public void onInterstitialLoaded(InterstitialAd interstitial) {
             Toast.makeText(self, "loaded", Toast.LENGTH_SHORT).show();
